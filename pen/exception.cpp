@@ -1,5 +1,6 @@
-#include "exception.hpp"
+// #include "exception.hpp"
+// #include "AutoPen.hpp"
 
-void ClosedPenException::handle(AutoPen* pen) {
-    pen->click();
-}
+// void ClosedPenException::handle(AutoPen* pen) {
+//     pen->click();
+// }

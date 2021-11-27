@@ -1,17 +1,16 @@
 #ifndef EXCEPTION_HPP
 #define EXCEPTION_HPP
 
-#include "AutoPen.hpp"
-
 class AutoPen;
 
 class OutOfInkException {};
 class OutOfSpaceException {};
 
+// TODO: powerful research
 class ClosedPenException {
-    public:
-        ClosedPenException();
-        void handle(AutoPen* pen);
+    // public:
+    //     ClosedPenException();
+    //     void handle(AutoPen* pen);
 };
 
 #endif // EXCEPTION_HPP
